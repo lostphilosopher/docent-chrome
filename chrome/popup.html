@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <title>DocentEDU</title>
+    <style type="text/css">
+      body {
+        min-width: 125px;
+        overflow-x: hidden;
+        background-image:url('paper_fibers.png');
+        /*background-color: #A19D92;*/
+      }
+
+	.chromeButton {
+		-moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+		-webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+		box-shadow:inset 0px 1px 0px 0px #f29c93;
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ED6F23), color-stop(1, #EF7E3B) );
+		background:-moz-linear-gradient( center top, #ED6F23 5%, #EF7E3B 100% );
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ED6F23', endColorstr='#EF7E3B');
+		background-color:#fe1a00;
+		-webkit-border-top-left-radius:0px;
+		-moz-border-radius-topleft:0px;
+		border-top-left-radius:0px;
+		-webkit-border-top-right-radius:0px;
+		-moz-border-radius-topright:0px;
+		border-top-right-radius:0px;
+		-webkit-border-bottom-right-radius:0px;
+		-moz-border-radius-bottomright:0px;
+		border-bottom-right-radius:0px;
+		-webkit-border-bottom-left-radius:0px;
+		-moz-border-radius-bottomleft:0px;
+		border-bottom-left-radius:0px;
+		text-indent:0;
+		border:1px solid #d83526;
+		display:inline-block;
+		color:#ffffff;
+		font-family:Arial;
+		font-size:11px;
+		font-weight:bold;
+		font-style:normal;
+		height:21px;
+		line-height:21px;
+		width:100%;
+		text-decoration:none;
+		text-align:center;
+		text-shadow:1px 1px 0px #b23e35;
+	}
+	.chromeButton:hover {
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(1, #ED6F23), color-stop(1, #EF7E3B) );
+		background:-moz-linear-gradient( center top, #ED6F23 100%, #EF7E3B 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#CB6A25');
+		background-color:#ED6F23;
+	}.chromeButton:active {
+		position:relative;
+		top:1px;
+	}
+	*:focus {
+    	outline:none;
+	}
+	/* This button was generated using CSSButtonGenerator.com */      
+    </style>
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+     -->
+    <script src="popup.js"></script>
+
+  </head>
+  <body>
+  	<a href="#" id="runDocent" class="chromeButton"><strong>ENABLE TOOLBAR</strong></a><br />
+  	<a href="#" class="chromeButton">Save to library</a><br />
+  	<a href="#" class="chromeButton">Reset markup</a><br />
+  	<a href="#" class="chromeButton">Teacher portal</a><br />
+  	<a href="#" class="chromeButton">View responses</a><br />
+  	<a href="http://docentedu.com/#pricing" target="_blank" class="chromeButton">Go Premium!</a><br />
+  	<a href="http://docentedu.com/#about" target="_blank" class="chromeButton">About</a><br />
+  	<img src="DocentEDU_icon.png" 
+  		width="50px" height="50px" 
+  		style="display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 10px;"
+    />
+  </body>
+</html>
